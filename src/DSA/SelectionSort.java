@@ -24,4 +24,12 @@ public class SelectionSort {
 		a[first] = a[second];
 		a[second] = temp;
 	}
+
+	public int[] getA() {
+		return a;
+	}
+
+	public void setA(int[] a) {
+		this.a = a;
+	}
 }
