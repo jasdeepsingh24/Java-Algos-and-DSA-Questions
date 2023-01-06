@@ -30,9 +30,8 @@ public class CustomQueue {
         return temp;
     }
 
-    public long peekFront()
-    {
-        return qArray[]
+    public long peekFront() {
+        return qArray[front];
     }
 
     public boolean isEmpty() {
